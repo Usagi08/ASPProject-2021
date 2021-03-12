@@ -1,0 +1,149 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAF4Jy8Cy7ca8JA=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model1",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAF4Jy8Cy7cbFpA=",
+					"_parent": {
+						"$ref": "AAAAAAF4Jy8Cy7ca8JA="
+					},
+					"name": "UseCaseDiagram1",
+					"ownedViews": [
+						{
+							"_type": "UMLUseCaseSubjectView",
+							"_id": "AAAAAAF4Jy9iC7ch/Ww=",
+							"_parent": {
+								"$ref": "AAAAAAF4Jy8Cy7cbFpA="
+							},
+							"model": {
+								"$ref": "AAAAAAF4Jy9iCrcfcRw="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF4Jy9iC7cimZ8=",
+									"_parent": {
+										"$ref": "AAAAAAF4Jy9iC7ch/Ww="
+									},
+									"model": {
+										"$ref": "AAAAAAF4Jy9iCrcfcRw="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4Jy9iC7cjz8o=",
+											"_parent": {
+												"$ref": "AAAAAAF4Jy9iC7cimZ8="
+											},
+											"visible": false,
+											"font": "times new roman;12;0",
+											"height": 12
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4Jy9iC7ck8yA=",
+											"_parent": {
+												"$ref": "AAAAAAF4Jy9iC7cimZ8="
+											},
+											"font": "times new roman;12;1",
+											"left": 453,
+											"top": 87,
+											"width": 717.5625,
+											"height": 12,
+											"text": "PLATEFORME WEB POUR LES RESTAURATEURS SOUHAITANT METTRE EN PLACE UN SYSTÈME DE PLATS À EMPORTER -"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4Jy9iC7clsEc=",
+											"_parent": {
+												"$ref": "AAAAAAF4Jy9iC7cimZ8="
+											},
+											"visible": false,
+											"font": "times new roman;12;0",
+											"width": 71.6484375,
+											"height": 12,
+											"text": "(from Model1)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF4Jy9iC7cmzUw=",
+											"_parent": {
+												"$ref": "AAAAAAF4Jy9iC7cimZ8="
+											},
+											"visible": false,
+											"font": "times new roman;12;0",
+											"height": 12,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "times new roman;12;0",
+									"left": 448,
+									"top": 80,
+									"width": 727.5625,
+									"height": 24,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF4Jy9iC7cjz8o="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF4Jy9iC7ck8yA="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF4Jy9iC7clsEc="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF4Jy9iC7cmzUw="
+									}
+								}
+							],
+							"font": "times new roman;12;0",
+							"left": 448,
+							"top": 80,
+							"width": 727.5625,
+							"height": 640,
+							"nameCompartment": {
+								"$ref": "AAAAAAF4Jy9iC7cimZ8="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLUseCaseSubject",
+					"_id": "AAAAAAF4Jy9iCrcfcRw=",
+					"_parent": {
+						"$ref": "AAAAAAF4Jy8Cy7ca8JA="
+					},
+					"name": "PLATEFORME WEB POUR LES RESTAURATEURS SOUHAITANT METTRE EN PLACE UN SYSTÈME DE PLATS À EMPORTER -"
+				}
+			]
+		}
+	]
+}
